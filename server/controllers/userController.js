@@ -1,5 +1,5 @@
 // we will create controller function for user registration, user login and user logout
-import userModel from "../models/usermodel.js";//now using this usermodel we will create different apis, using which user can create account, login to exisiting account and user cqan logout from the account
+import userModel from "../models/userModel.js";//now using this usermodel we will create different apis, using which user can create account, login to exisiting account and user cqan logout from the account
 import bcrypt from 'bcrypt'// using this we can encrpyt the password
 import jwt from 'jsonwebtoken'//using this we will create a token for user authentication
 import razorpay from 'razorpay'
